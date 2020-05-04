@@ -4,6 +4,7 @@ git config --global user.email roberto.orellana.t@usach.cl     //Configura el co
 git config --list                       //muestra las configuraciones
 git init 							    //inicializa un repositorio Git vacío
 git clone <link> 					    //copiará todos los archivos de ese repositorio Git a su local
+git status                              //mostrará los diferentes estados de los archivos en tu directorio de trabajo y área de ensayo
 git add index.html 					    //agrega el archivo index.html al Staging (Estado 1 -> Estado 2)
 git add .							    //agrega todos los archivos otra forma(--all)
 git commit -m "<commit message>" 	    //hace una confirmación con algun mensaje 'se agrego index.html' (Estado 2 -> Estado 3)
