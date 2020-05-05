@@ -9,12 +9,15 @@ git add index.html 					    //agrega el archivo index.html al Staging (Estado 1 
 git add .							    //agrega todos los archivos otra forma(--all)
 git commit -m "<commit message>" 	    //hace una confirmación con algun mensaje 'se agrego index.html' (Estado 2 -> Estado 3)
 git log                                 //muestra el estado de los commit
+git log --oneline --decorate            //para que te muestre a dónde apunta cada rama.
 git remote add origin https://github.com/robert912/git_tutorial.git 	//agregar el repositorio recién creado como nuestro repositorio remoto
-git push -u origin master 			    //La primera vez que empuja archivos a un directorio remoto, debe ingresar el siguiente comando
+git push -u origin master 			    //La primera vez que empuja archivos a un directorio remoto, debe ingresar el siguiente comando para toda rama
 git push							    //luego cada dos veces solo escribe git push
+git branch                              //muestra las ramas y en que rama esta posicionado (*)
 git branch <branch>					    // crear una rama donde <branch> = nombre rama
 git checkout <branch> 				    //para cambiar de rama
 git checkout -b <branch> 			    //crea y cambia a esa rama inmediatamente
+git branch -d <branch>                  //Elimina la rama <branch>
 git merge <branch> 					    //Combina tu rama con la rama maestra
 git merge change-styles 			    //para combinar los estilos de cambio en la rama maestra
 git pull origin <branch> 			    //Si está trabajando con varias personas, se encontrará en una posición en la que se actualizó un repositorio en GitHub, pero no tiene los cambios localmente
