@@ -11,10 +11,10 @@ git commit -m "<commit message>" 	    //hace una confirmación con algun mensaje
 git log                                 //muestra el estado de los commit
 git remote add origin https://github.com/robert912/git_tutorial.git 	//agregar el repositorio recién creado como nuestro repositorio remoto
 git push -u origin master 			    //La primera vez que empuja archivos a un directorio remoto, debe ingresar el siguiente comando
-git push							    //luego cada dos veces solo escribe git push
-git branch <branch>					    // crear una rama donde <branch> = nombre rama
-git checkout <branch> 				    //para cambiar de rama
-git checkout -b <branch> 			    //crea y cambia a esa rama inmediatamente
-git merge <branch> 					    //Combina tu rama con la rama maestra
-git merge change-styles 			    //para combinar los estilos de cambio en la rama maestra
-git pull origin <branch> 			    //Si está trabajando con varias personas, se encontrará en una posición en la que se actualizó un repositorio en GitHub, pero no tiene los cambios localmente
+git push							              //luego cada dos veces solo escribe git push
+git branch <branch>					        // crear una rama donde <branch> = nombre rama
+git checkout <branch> 				      //para cambiar de rama
+git checkout -b <branch> 			      //crea y cambia a esa rama inmediatamente
+git merge <branch> 					        //Combina tu rama con la rama maestra
+git merge change-styles 			      //para combinar los estilos de cambio en la rama maestra
+git pull origin <branch> 			      //Si está trabajando con varias personas, se encontrará en una posición en la que se actualizó un repositorio en GitHub, pero no tiene los cambios localmente
